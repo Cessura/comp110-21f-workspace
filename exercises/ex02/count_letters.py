@@ -11,8 +11,8 @@ i: int = int(len(word))
 score: int = int(0)
 
 while i > 0:
-    if letter == word[i-1]:
+    if letter == word[i - 1]:
         score = score + 1
     i = i - 1
 
-print ("Count: " + str(score))
+print("Count: " + str(score))
