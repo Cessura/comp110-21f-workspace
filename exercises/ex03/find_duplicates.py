@@ -7,7 +7,7 @@ considered: str = str("")
 i: int = int(0)
 n: int = int(0)
 result: str = str("False")
-phrase: str = str (input("Enter a word: "))
+phrase: str = str(input("Enter a word: "))
 
 while i < len(phrase):
     comparator = phrase[i]

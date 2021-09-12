@@ -17,5 +17,4 @@ if num % 7 == 0:
 if num % 14 == 0:
     raci = "TAR HEEL"
 
-print (raci)
-
+print(raci)
