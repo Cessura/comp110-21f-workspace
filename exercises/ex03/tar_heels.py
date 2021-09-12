@@ -12,9 +12,9 @@ if num % 2 == 0:
     raci = "TAR"
 
 if num % 7 == 0:
-    raci = "HEEL"
+    raci = "HEELS"
 
 if num % 14 == 0:
-    raci = "TAR HEEL"
+    raci = "TAR HEELS"
 
 print(raci)
