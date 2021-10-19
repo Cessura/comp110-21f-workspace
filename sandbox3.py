@@ -1,18 +1,8 @@
-"""List utility functions part 2."""
-
-__author__ = "123456789"
-
-# Define your functions below
-
-"""List utility functions."""
-
-__author__ = "730330727"
+A: list[int] = [10, 20, 30, 40]
+B: list[int] = [20, 30, 40, 50, 60, 70, 1]
 
 
-# TODO: Implement your functions here.
-
-def only_evens(A: list[int]) -> list[int]:
-    """Gives only even numbers."""
+def only_Evans(A: list[int]) -> list[int]:
     B: list = []
     i: int = int(0)
 
@@ -32,7 +22,7 @@ def only_evens(A: list[int]) -> list[int]:
 
 
 def sub(A: list[int], i: int, j: int) -> list[int]:
-    """Makes a subset list."""
+
     C: list[int] = []
 
     if i < 0:
@@ -58,7 +48,7 @@ def sub(A: list[int], i: int, j: int) -> list[int]:
 
 
 def concat(A: list[int], B: list[int]) -> list[int]:
-    """Pulls two lists together."""
+
     C: list[int] = []
     i: int = int(0)
 
